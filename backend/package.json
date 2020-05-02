@@ -1,0 +1,22 @@
+{
+  "name": "projectts",
+  "version": "1.0.0",
+  "description": "typescript simple project",
+  "main": "index.js",
+  "repository": "github.com/dcandrade19/typescriptlearn",
+  "author": "Diego C Andrade",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/cors": "^2.8.6",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
